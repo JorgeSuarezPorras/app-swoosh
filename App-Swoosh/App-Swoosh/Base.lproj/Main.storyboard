@@ -46,6 +46,12 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="Button" destination="Qxp-gj-Bvr" id="niV-C5-9ve"/>
+                        <outlet property="Eslogan" destination="mo8-TU-ip4" id="7bN-gx-tzt"/>
+                        <outlet property="bgImg" destination="79J-zF-iqh" id="azW-Y3-s53"/>
+                        <outlet property="swoosh" destination="CSN-VX-lB2" id="inl-HQ-xmc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
