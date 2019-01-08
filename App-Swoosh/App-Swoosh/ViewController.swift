@@ -25,6 +25,9 @@ class ViewController: UIViewController {
         Eslogan.frame = CGRect(x: swoosh.frame.midX - swoosh.frame.size.width/2, y: swoosh.frame.midY+Eslogan.frame.size.height, width: Eslogan.frame.size.width, height: Eslogan.frame.size.height)
  */
     }
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue){
+        
+    }
 
     
     
